@@ -1,0 +1,237 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="motion-background" id="particles-js"><div class="count-particles"></div></div>
+<!-- HOME -->
+<section id="home" class="d-flex justify-content-center align-items-center">
+    <div class="home" data-aos="flip-right">
+        <div class="home-professional d-flex justify-content-center">
+            <h1 class="display-3"><span class="primary-title">Guilherme</span> Barbosa </h1>
+            <p class="destak-work text-uppercase">Desenvolvedor .NET</p>
+        </div>    
+        <p class="home-description">Criação de sites, APIs e dashboards Interativos</p>
+        <div class="home-btns d-flex justify-content-center align-items-center">
+            <a href="#contacts" class="my-btn my-btn-primary text-center">Entrar em contato</a>
+            <a href="#about" class="my-btn my-btn-secondary text-center">Ver Portifólio</a>
+        </div>
+    </div>
+    <div class="my-double-down">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16" data-aos="flip-right">
+            <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+            <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+        </svg>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="d-flex justify-content-center align-items-center">
+    <div class="about-me d-flex justify-content-center align-items-center" data-aos="zoom-out-right">
+        <img class="professional-photo" src="~/assets/imgs/foto-profissional.jpg" />
+        <div class="text-about-me">
+            <h1><span class="primary-title">Sobre mim</span></h1>
+            <p>Conecto design, dados e tecnologia para criar sites e dashboards que trabalham por você — mais agilidade, mais organização, mais resultados.</p>
+            <div class="about-me-btns d-flex">
+                <a href="#projects" class="my-btn my-btn-terciary">Saber mais</a>
+                <a href="~/assets/Docs/Curriculo_GuilhermeFullStack2025.pdf" download="Curriculo_GuilhermeFullStack2025.pdf" class="my-btn my-btn-secondary">Baixar CV</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="d-flex justify-content-center align-items-center" >
+    <h1><span class="primary-title">Projetos</span></h1>
+    <div id="carouselExampleDark" class="projects-carousel carousel carousel-dark slide" data-aos="fade-left">
+        <div class="carousel-inner" >
+            <!--PROJECT 1-->
+            <div class="carousel-item active" align="center" data-bs-interval="10000">
+                <div class="card-project card d-block w-20">
+                    <img src="~/assets/imgs/projeto-site-institucional-esm-consultoria.png" class="card-img-top" alt="Projeto - Site Institucional para a ESM Consultoria e Treinamentos LTDA">
+                    <div class="card-body">
+                        <h5 class="card-title text-secondary">Consultoria ESM</h5>
+                        <p class="card-text text-secondary text-justify">Desenvolvi o site institucional da ESM Consultoria e Treinamentos Ltda uma das principais empresas sobre Segurança do Trabalho <span style="color: var(--accent-yellow)">em nível nacional</span>.</p>
+                        <div class="d-flex justify-content-around card-footer">
+                            <a href="https://github.com/devguilherme-b/esm-institucional" class="btn btn-secondary" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
+                            </a>
+                            <a href="https://www.consultoriaesm.com.br/" class="btn btn-secondary" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--PROJECT 2-->
+            <div class="carousel-item" align="center" data-bs-interval="2000">
+                <div class="card-project card d-block w-20">
+                    <img src="~/assets/imgs/projeto-viva-mundo.png" class="card-img-top" alt="Projeto - Site Institucional Viva Mundo">
+                    <div class="card-body">
+                        <h5 class="card-title text-secondary">Viva Mundo</h5>
+                        <p class="card-text text-secondary text-justify">Site institucional que desenvolvi como versão base para empresas de viagens.</p>
+                        <div class="d-flex justify-content-around card-footer">
+                            <a href="https://github.com/devguilherme-b/viva-mundo" class="btn btn-secondary" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
+                            </a>
+                            <a href="https://vivamundo.vercel.app/" class="btn btn-secondary" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--PROJECT 3-->
+            <div class="carousel-item" align="center" data-bs-interval="2000">
+                <div class="card-project card d-block w-20">
+                    <img src="~/assets/imgs/projeto-power-bi.jpg" class="card-img-top" alt="Projeto - Dashboard com Power BI">
+                    <div class="card-body">
+                        <h5 class="card-title text-secondary">Dashboard com Power BI</h5>
+                        <p class="card-text text-secondary text-justify">Desenvolvi um dashboard com Power Bi para exibir rendas por Marca, loja, produto e período para empresas de forma digital e automática</p>
+                        <div class="d-flex justify-content-around card-footer">
+                            <a href="https://www.linkedin.com/posts/devguilhermebarbosa_explorar-aprender-exploring-activity-7285378446023684097-hDZo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDAkqQBDKPBHV5551TEhmJmSNh41KFSJR4" class="btn btn-secondary" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--PROJECT 4-->
+            <div class="carousel-item" align="center" data-bs-interval="2000">
+                <div class="card-project card d-block w-20">
+                    <img src="~/assets/imgs/projeto-gossip-girl.png" class="card-img-top" alt="Projeto - Convite em website - Gossip Girl">
+                    <div class="card-body">
+                        <h5 class="card-title text-secondary">Convite Gossip Girl</h5>
+                        <p class="card-text text-secondary text-justify">Criei um convite com a temática Gossip Girl para eventos como festas de aniversário.</p>
+                        <div class="d-flex justify-content-around card-footer">
+                            <a href="https://github.com/devguilherme-b/Templates-Convites" class="btn btn-secondary" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+            </svg>            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+            </svg>            
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="d-flex justify-content-center align-items-center">
+    <h1><span class="primary-title">Habilidades</span></h1>
+    <div class="container-skills" data-aos="flip-up">        
+        <div class="card-skill">
+            <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/_net_core.png" /> 
+            <p>.NET</p>
+        </div>
+        <div class="card-skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" /> 
+            <p>CSharp</p>
+        </div>
+        <div class="card-skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-original.svg" />
+            <p>Visual Studio</p>
+        </div>
+        <div class="card-skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+            <p>Angular</p>
+        </div>
+        <div class="card-skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+            <p>Git</p>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="d-flex justify-content-center align-items-center">
+    <h1><span class="primary-title">Serviços</span></h1>
+    <div class="container-services d-grid" data-aos="fade-up">
+        <!--SERVICE 1-->       
+        <div class="service-card d-block">
+            <img src="~/assets/imgs/banner-power-bi.jpg" class="service-img" alt="Banner sobre criação de dashboards digitais com Power BI">
+            <div class="card-body">
+                <h5 class="card-title text-secondary">Power BI</h5>
+                <p class="card-text text-secondary text-justify">Transformo planilhas do Excel e outras base de dados em painel profissional, dinâmicos e digital com POWER BI.</p>
+                <div class="service-button">
+                    <a href="#contacts" class="my-btn my-btn-primary text-center">Solicitar projeto</a>
+                </div>
+            </div>
+        </div>
+        <!--SERVICE 2-->
+        <div class="service-card d-block position-relative">
+            <div class="service-hot position-absolute top-0 start-50 translate-middle">Em alta 🔥</div>
+            <img src="~/assets/imgs/banner-website.jpg" class="service-img" alt="Banner sobre criação de sites">
+            <div class="card-body">
+                <h5 class="card-title text-secondary">Criação de Sites</h5>
+                <p class="card-text text-secondary text-justify">Levo sua empresa para a internet com sites completos: institucionais, portfólios, e-commerce, hotsites, blogs e landing pages — tudo em um só lugar.</p>
+                <div class="service-button">    
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9RQ41BPEQLbcB5GwRudih5TELB6AwXDNQBW05JDfpJ-Zzpg/viewform?usp=dialog" target="_blank" class="my-btn my-btn-terciary text-center">Solicitar Projeto</a>
+                </div>
+            </div>
+        </div>
+        <!--SERVICE 3-->
+        <div class="service-card d-block">
+            <img src="~/assets/imgs/banner-microsoft-365.jpeg" class="service-img" alt="Banner sobre serviços com programas do Microsoft 365">
+            <div class="card-body">
+                <h5 class="card-title text-secondary">Microsoft 365</h5>
+                <p class="card-text text-secondary text-justify">Dificuldades com Normas ABNT? Deixe a papelada comigo: slides impactantes, planilhas funcionais e documentos no capricho.</p>
+                <div class="service-button">
+                    <a href="#contacts" class="my-btn my-btn-primary text-center">Solicitar projeto</a>
+                </div>              
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTS -->
+<section id="contacts" class="d-flex justify-content-center">
+    <h1><span class="primary-title">Contatos</span></h1>
+    <div class="d-grid" data-aos="fade-up">
+        <a href="https://www.linkedin.com/in/devguilhermebarbosa/" class="my-btn my-btn-primary" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="#ebf3fc" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                
+            </svg>
+            Linkedin
+        </a>
+        <a href="https://github.com/devguilherme-b" class="my-btn my-btn-primary" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="#ebf3fc" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+            </svg>
+            GitHub
+        </a>
+        <a href="mailto:dev.guilhermebarbos@gmail.com?subject=Proposta%20De%20Servi" class="my-btn my-btn-primary" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0,0,256,256">
+                <g fill="#ebf3fc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M2,10.488v7.512c0,1.657 1.343,3 3,3h1c0.552,0 1,-0.448 1,-1v-6.297zM17,13.724v6.276c0,0.552 0.448,1 1,1h1c1.657,0 3,-1.343 3,-3v-7.466zM15.503,5.797l-3.503,2.206l-3.502,-2.209v7.097l3.096,1.984c0.123,0.08 0.266,0.119 0.407,0.119c0.141,0 0.281,-0.039 0.405,-0.118l3.098,-1.969v-7.11zM7,4.85l-0.589,-0.371c-0.869,-0.579 -1.987,-0.629 -2.919,-0.132c-0.934,0.498 -1.492,1.418 -1.492,2.459v1.921l5,3.205zM20.514,4.345c-0.928,-0.497 -2.042,-0.449 -2.885,0.113l-0.629,0.396v7.102l5,-3.178v-1.982c0,-1.038 -0.556,-1.954 -1.486,-2.451z"></path></g></g>
+            </svg>
+            G-mail
+        </a>
+    </div>
+</section>
