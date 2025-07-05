@@ -4,6 +4,7 @@ wwwroot\assets\imgs\banner-power-bi.jpg
 wwwroot\assets\imgs\banner-website.jpg
 wwwroot\assets\imgs\foto-profissional.jpg
 wwwroot\assets\imgs\projeto-gossip-girl.png
+wwwroot\assets\imgs\projeto-portifolio-pessoal.png
 wwwroot\assets\imgs\projeto-power-bi.jpg
 wwwroot\assets\imgs\projeto-site-institucional-esm-consultoria.png
 wwwroot\assets\imgs\projeto-viva-mundo.png

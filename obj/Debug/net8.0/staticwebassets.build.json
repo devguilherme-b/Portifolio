@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "neS0MBIBfRKl8BV0DWvNyu0+YOrcgcl64YR3hCGVze0=",
+  "Hash": "5m0q0vZ54pEhTop4NlUsPO3qZiauC6blxADVeOUuYBA=",
   "Source": "DevPortifolio",
   "BasePath": "_content/DevPortifolio",
   "Mode": "Default",
@@ -185,6 +185,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\projeto-gossip-girl.png"
     },
     {
+      "Identity": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\projeto-portifolio-pessoal.png",
+      "SourceId": "DevPortifolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\",
+      "BasePath": "_content/DevPortifolio",
+      "RelativePath": "assets/imgs/projeto-portifolio-pessoal#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mnan6iaota",
+      "Integrity": "Tnz03Tv2XA+UokEzpfyRF+I8YEdegw1xr37QZ2LhStw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\projeto-portifolio-pessoal.png"
+    },
+    {
       "Identity": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\projeto-power-bi.jpg",
       "SourceId": "DevPortifolio",
       "SourceType": "Discovered",
@@ -262,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "r7nthgt8sc",
-      "Integrity": "OSSqicnfogOhRLZ+qZK2dJ2sbVUYFaeNbsESc0yJYi8=",
+      "Fingerprint": "qfzq6zs0om",
+      "Integrity": "GtgYdnXyWsOfB76+BIOstE3AR2M071tS8W7GpJKFdbw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2023,6 +2044,88 @@
       ]
     },
     {
+      "Route": "assets/imgs/projeto-portifolio-pessoal.mnan6iaota.png",
+      "AssetFile": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\projeto-portifolio-pessoal.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tnz03Tv2XA+UokEzpfyRF+I8YEdegw1xr37QZ2LhStw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 18:53:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mnan6iaota"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/imgs/projeto-portifolio-pessoal.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tnz03Tv2XA+UokEzpfyRF+I8YEdegw1xr37QZ2LhStw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/imgs/projeto-portifolio-pessoal.png",
+      "AssetFile": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\projeto-portifolio-pessoal.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tnz03Tv2XA+UokEzpfyRF+I8YEdegw1xr37QZ2LhStw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 18:53:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tnz03Tv2XA+UokEzpfyRF+I8YEdegw1xr37QZ2LhStw="
+        }
+      ]
+    },
+    {
       "Route": "assets/imgs/projeto-power-bi.jpg",
       "AssetFile": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\projeto-power-bi.jpg",
       "Selectors": [],
@@ -2279,7 +2382,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9322"
+          "Value": "9470"
         },
         {
           "Name": "Content-Type",
@@ -2287,11 +2390,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OSSqicnfogOhRLZ+qZK2dJ2sbVUYFaeNbsESc0yJYi8=\""
+          "Value": "\"GtgYdnXyWsOfB76+BIOstE3AR2M071tS8W7GpJKFdbw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 19:14:15 GMT"
+          "Value": "Thu, 03 Jul 2025 19:21:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2301,12 +2404,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OSSqicnfogOhRLZ+qZK2dJ2sbVUYFaeNbsESc0yJYi8="
+          "Value": "sha256-GtgYdnXyWsOfB76+BIOstE3AR2M071tS8W7GpJKFdbw="
         }
       ]
     },
     {
-      "Route": "css/site.r7nthgt8sc.css",
+      "Route": "css/site.qfzq6zs0om.css",
       "AssetFile": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2316,7 +2419,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9322"
+          "Value": "9470"
         },
         {
           "Name": "Content-Type",
@@ -2324,11 +2427,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OSSqicnfogOhRLZ+qZK2dJ2sbVUYFaeNbsESc0yJYi8=\""
+          "Value": "\"GtgYdnXyWsOfB76+BIOstE3AR2M071tS8W7GpJKFdbw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 19:14:15 GMT"
+          "Value": "Thu, 03 Jul 2025 19:21:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2338,7 +2441,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r7nthgt8sc"
+          "Value": "qfzq6zs0om"
         },
         {
           "Name": "label",
@@ -2346,7 +2449,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OSSqicnfogOhRLZ+qZK2dJ2sbVUYFaeNbsESc0yJYi8="
+          "Value": "sha256-GtgYdnXyWsOfB76+BIOstE3AR2M071tS8W7GpJKFdbw="
         }
       ]
     },

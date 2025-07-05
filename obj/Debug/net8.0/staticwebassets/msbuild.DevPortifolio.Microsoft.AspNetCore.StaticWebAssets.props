@@ -108,6 +108,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\projeto-gossip-girl.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\projeto-portifolio-pessoal.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DevPortifolio</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DevPortifolio</BasePath>
+      <RelativePath>assets/imgs/projeto-portifolio-pessoal.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mnan6iaota</Fingerprint>
+      <Integrity>Tnz03Tv2XA+UokEzpfyRF+I8YEdegw1xr37QZ2LhStw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\projeto-portifolio-pessoal.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\projeto-power-bi.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>DevPortifolio</SourceId>
@@ -174,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r7nthgt8sc</Fingerprint>
-      <Integrity>OSSqicnfogOhRLZ+qZK2dJ2sbVUYFaeNbsESc0yJYi8=</Integrity>
+      <Fingerprint>qfzq6zs0om</Fingerprint>
+      <Integrity>GtgYdnXyWsOfB76+BIOstE3AR2M071tS8W7GpJKFdbw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
