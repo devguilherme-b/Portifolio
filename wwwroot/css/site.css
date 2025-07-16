@@ -43,6 +43,7 @@
     background: linear-gradient(to right, #6250A4, #9C5EA9, #6250A4 100%);
     border: solid 1px #9C5EA9;
     -webkit-text-fill-color: var(--white);
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .my-btn-secondary {
     background: var(--gray);
@@ -51,8 +52,6 @@
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .my-btn-terciary {
-    min-width: 100px;
-    max-width: 200px;
     background: linear-gradient(to right, #cc8100, #dba100 100%);
     -webkit-text-fill-color: var(--white);
     border: solid 1px #9C5EA9;
@@ -174,9 +173,17 @@ section{
     align-content:center
 }
 .card-project {
-    width: 300px;
+    min-width: 280px;
+    max-width: 300px;
     height: 390px;
-    border-radius:10px
+    border-radius: 15px;
+    background-color: var(--white);
+    padding: 2px;
+}
+.card-project img{
+    width: 100%;
+    border-radius: 13px;
+    height: auto;
 }
 
 /* --- SECTION - SKILLS --- */
@@ -187,7 +194,7 @@ section{
     width: 100%;
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     padding: 40px;
 }
@@ -288,14 +295,12 @@ section{
 @media (max-width: 600px) {
     /* Style for Smartphones*/
 
-    .my-btns{
+    .my-btns {
+        width: 240px;
         padding-top:30px;
-        flex-direction:column;
-        align-items:center;
-        justify-content:center
-    }
-    .my-btns button, .my-btn-terciary {
-        width: 240px
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
     }
 
     .home {
@@ -407,14 +412,13 @@ section{
     }
 
     .container-skills {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 }
 @media (min-width: 1280px) {
     .container-services {
         grid-template-columns: 1fr 1fr 1fr;
     }
-
 }
 
 @keyframes top-to-bottom {
