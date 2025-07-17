@@ -35,6 +35,7 @@ Site institucional desenvolvido para apresentar meus projetos, tecnologias, serv
 
 - HTML5 e CSS3
 - ASP.NET Core Web App (Razor Pages)
+- Azure
 - **Libs:** Boostrap, Google Fonts, Particles.js, AOS
 
 ---
