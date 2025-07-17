@@ -6,7 +6,7 @@ Site institucional desenvolvido para apresentar meus projetos, tecnologias, serv
 
 ---
 
-## 🔗 [Acesse o site aqui](https://devguilhermebarbos.azurewebsites.net)
+## 🔗 [Acesse o site aqui](https://devguilherme.azurewebsites.net)
 
 ---
 
@@ -19,7 +19,7 @@ Site institucional desenvolvido para apresentar meus projetos, tecnologias, serv
 - [📲 Responsividade](#-responsividade)
 - [📸 Screenshots](#-screenshots)
 - [📥 Instalação Local](#-instalação-local)
-- [📄 Licença](#-licença)
+- [📧 Contatos](#-contatos)
 
 ---
 
@@ -98,3 +98,10 @@ Acesse no navegador:
 http://localhost:5000
 ```
 
+## 📧 Contatos
+
+Caso tenha dúvidas, sugestões ou queira se conectar, entre em contato através das redes abaixo:
+
+- 📧 Email: [dev.guilhermebarbos@gmail.com](mailto:dev.guilhermebarbos@gmail.com)
+- 📸 Instagram: [@dev.guilhermee](https://www.instagram.com/dev.guilhermee)
+- 💼 LinkedIn: [Guilherme Barbosa](https://www.linkedin.com/in/devguilhermebarbosa/)

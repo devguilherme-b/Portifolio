@@ -9,12 +9,20 @@
       "PackagePath": "staticwebassets\\assets\\Docs\\Curriculo_GuilhermeFullStack2025.pdf"
     },
     {
-      "Id": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\banner-microsoft-365.jpeg",
-      "PackagePath": "staticwebassets\\assets\\imgs\\banner-microsoft-365.jpeg"
+      "Id": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\banner-microsoft-powerpoint.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner-microsoft-powerpoint.jpeg"
     },
     {
       "Id": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\banner-power-bi.jpg",
       "PackagePath": "staticwebassets\\assets\\imgs\\banner-power-bi.jpg"
+    },
+    {
+      "Id": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\banner-powerpoint.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner-powerpoint.jpeg"
+    },
+    {
+      "Id": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\banner-projeto-portifolio-pessoal.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\banner-projeto-portifolio-pessoal.png"
     },
     {
       "Id": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\banner-website.jpg",
@@ -43,6 +51,14 @@
     {
       "Id": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\projeto-viva-mundo.png",
       "PackagePath": "staticwebassets\\assets\\imgs\\projeto-viva-mundo.png"
+    },
+    {
+      "Id": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\responsivo-smartphone-projeto-portifolio-pessoal.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\responsivo-smartphone-projeto-portifolio-pessoal.png"
+    },
+    {
+      "Id": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\assets\\imgs\\responsivo-tablet-projeto-portifolio-pessoal.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\responsivo-tablet-projeto-portifolio-pessoal.png"
     },
     {
       "Id": "D:\\A1 - Projetos\\.NET\\DevPortifolio\\DevPortifolio\\wwwroot\\css\\site.css",

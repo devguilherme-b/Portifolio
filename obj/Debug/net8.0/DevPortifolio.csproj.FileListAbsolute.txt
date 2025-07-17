@@ -32,4 +32,3 @@ D:\A1 - Projetos\.NET\DevPortifolio\DevPortifolio\obj\Debug\net8.0\DevPortifolio
 D:\A1 - Projetos\.NET\DevPortifolio\DevPortifolio\obj\Debug\net8.0\DevPortifolio.genruntimeconfig.cache
 D:\A1 - Projetos\.NET\DevPortifolio\DevPortifolio\obj\Debug\net8.0\ref\DevPortifolio.dll
 D:\A1 - Projetos\.NET\DevPortifolio\DevPortifolio\obj\Debug\net8.0\DevPortifolio.sourcelink.json
-D:\A1 - Projetos\.NET\DevPortifolio\DevPortifolio\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
